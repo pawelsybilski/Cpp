@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\document.o
+./release\non_linear_resistor.o
+./release\source_of_constant_voltage.o
+./release\exceptions.o
+./release\delete_dialog.o
+./release\modify_dialog.o
+./release\moc_mainwindow.o
+./release\moc_exceptions.o
+./release\moc_delete_dialog.o
+./release\moc_modify_dialog.o
+);
