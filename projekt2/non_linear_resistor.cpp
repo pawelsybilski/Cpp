@@ -22,7 +22,7 @@ ostringstream kod_svg;
             kod_svg<<"<line x1=\""<<110+x_coordinates<<"\" y1=\""<<30+y_coordinates<<"\" x2=\""<<110+x_coordinates<<"\" y2=\""<<y_coordinates<<"\" style=\"stroke:rgb(0,0,0);stroke-width:2\" />"<<endl;
             kod_svg<<"<line x1=\""<<110+x_coordinates<<"\" y1=\""<<100+y_coordinates<<"\" x2=\""<<110+x_coordinates<<"\" y2=\""<<70+y_coordinates<<"\" style=\"stroke:rgb(0,0,0);stroke-width:2\" />"<<endl;
            kod_svg<<"<line x1=\""<<90+x_coordinates<<"\" y1=\""<<60+y_coordinates<<"\" x2=\""<<130+x_coordinates<<"\" y2=\""<<40+y_coordinates<<"\" style=\"stroke:rgb("<<resistor_colour<<",0,"<<resistor_colour<<");stroke-width:2\" />"<<endl;
-            kod_svg<<"<transform=\"rotate(90 250,2500\"/>";
+
            return kod_svg.str();
 }
 

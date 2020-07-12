@@ -89,11 +89,11 @@ void MainWindow::display()
 
 void MainWindow::on_actionSaveElementsTo_triggered()
 {    try{
-    QString file_name = QFileDialog :: getOpenFileName(this, "Open a file", "/");
+    QString file_name = QFileDialog :: getOpenFileName(this, "Save to html file", "/");
 
     if(file_name.isEmpty())
     {
-        QString wyjatek = "Nie wybrano pliku do odczytu";
+        QString wyjatek = "Nie wybrano pliku do zapisu";
                 throw wyjatek;
     }
     else

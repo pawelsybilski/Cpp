@@ -121,7 +121,7 @@
      <x>0</x>
      <y>0</y>
      <width>974</width>
-     <height>26</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -152,7 +152,7 @@
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionSaveElementsTo">
    <property name="text">
-    <string>save elements to...</string>
+    <string>save </string>
    </property>
   </action>
   <action name="actionSave_svg_code">

@@ -54,7 +54,7 @@ void Source_of_constant_voltage ::save_elements(ofstream &file)
             file<<source_colour<<endl;
             file<<x_coordinates<<endl;
             file<<y_coordinates<<endl;
-            //file.close();
+            file.close();
 }
 void Source_of_constant_voltage:: read_parameters_from_file(ifstream & file)
 {
