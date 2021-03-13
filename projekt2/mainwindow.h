@@ -21,6 +21,8 @@ public:
 void display();
 
     static int counter;
+
+
 private slots:
     void on_pushButton_clicked();
 
@@ -33,6 +35,8 @@ private slots:
     void on_actionSaveElementsTo_triggered();
 
     void on_actionRead_elements_from_triggered();
+
+    void on_pushButton_3_clicked();
 
 private:
     Ui::MainWindow *ui;

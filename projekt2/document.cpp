@@ -57,7 +57,7 @@ void Document:: save_for_reading(string file_name)
      throw wyjatek;
     }
    for(unsigned int i =0;i<container.size();i++)
-   container[i]->save_elements(outputFile);
+   {container[i]->save_elements(outputFile);cout<<i<<endl;}
    outputFile.close();
 }
 

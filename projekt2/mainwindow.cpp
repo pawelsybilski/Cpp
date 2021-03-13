@@ -131,3 +131,8 @@ void MainWindow::on_actionRead_elements_from_triggered()
     }
         MainWindow::display();
 }
+
+void MainWindow::on_pushButton_3_clicked()
+{
+
+}

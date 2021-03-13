@@ -5,6 +5,7 @@ using namespace std;
 class Element
 {
 protected:
+    unsigned int angle;
     unsigned int y_coordinates;
     unsigned int x_coordinates;
 public:
