@@ -1,0 +1,15 @@
+Added Component: Designator=J4(101181920001LF)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Amphenol ICC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "10118192-0001LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/10118192-0001LF/Amphenol%20FCI/view-part/2897676/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VUSB Pin=J4-1
+Added Pin To Net: NetName=D- Pin=J4-2
+Added Pin To Net: NetName=D+ Pin=J4-3
+Added Pin To Net: NetName=GND Pin=J4-4
+Added Pin To Net: NetName=GND Pin=J4-5
+Added Member To Class: ClassName=oem_w01_schemat Member=Component J4 10118192-0001LF

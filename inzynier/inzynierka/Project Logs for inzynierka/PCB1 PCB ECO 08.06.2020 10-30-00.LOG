@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetC6_2 Pin=Q-1
+Removed Pin From Net: NetName=NetC6_2 Pin=Q-2
+Removed Pin From Net: NetName=NetD1_2 Pin=Q-4
+Removed Pin From Net: NetName=NetC6_2 Pin=Q-5
+Removed Pin From Net: NetName=NetC6_2 Pin=Q-6
+Removed Pin From Net: NetName=NetD1_2 Pin=Q-7
+Added Pin To Net: NetName=NetD1_2 Pin=Q-1
+Added Pin To Net: NetName=NetD1_2 Pin=Q-2
+Added Pin To Net: NetName=NetC6_2 Pin=Q-4
+Added Pin To Net: NetName=NetD1_2 Pin=Q-5
+Added Pin To Net: NetName=NetD1_2 Pin=Q-6
+Added Pin To Net: NetName=NetC6_2 Pin=Q-7
+Added Member To Class: ClassName=oem_w01_schemat Member=Component J1 10118192-0001LF
+Added Member To Class: ClassName=oem_w01_schemat Member=Component J2 61300911121
+Added Room: Name=oem_w01_schemat

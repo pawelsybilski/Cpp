@@ -1,0 +1,5 @@
+Change Component Description : Designator=IC1 Old Description=USB 브� New Description=USB 브�|�지, USB-UART USB 2.0 UART 인터페이스 28-SSOP
+Added Pin To Net: NetName=NetQ2_5 Pin=Q2-8
+Added Member To Class: ClassName=oem_w01_schemat Member=Component IC1 FT232RL
+Added Member To Class: ClassName=oem_w01_schemat Member=Component PS1 LM3281YFQR
+Added Room: Name=oem_w01_schemat

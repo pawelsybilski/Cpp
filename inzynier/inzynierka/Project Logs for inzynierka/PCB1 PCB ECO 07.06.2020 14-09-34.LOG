@@ -1,0 +1,64 @@
+Removed Pin From Net: NetName=SD_DATA2 Pin=SD?-1
+Removed Pin From Net: NetName=SD_DATA3 Pin=SD?-2
+Change Component Description : Designator=IC Old Description=USB 브� New Description=USB 브�|�지, USB-UART USB 2.0 UART 인터페이스 28-SSOP
+Added Component: Designator=P?(61300911121)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to105degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "61300911121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bag"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "61300911121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Number"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "500VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250VAC"; VariantName = "[No Variations]"
+Added Component: Designator=P?(61300911121)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to105degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "61300911121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bag"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "61300911121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Number"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "500VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250VAC"; VariantName = "[No Variations]"
+Added Component: Designator=S?(PTS636SM43JSMTRLFS)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "PTS636 SM43J SMTR LFS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/pts636-sm43j-smtr-lfs/ck"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/PTS636 SM43J SMTR LFS.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "C & K COMPONENTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "PTS636 SM43J SMTR LFS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "611-PTS636SM43JSMTRL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/CK/PTS636-SM43J-SMTR-LFS?qs=vLWxofP3U2wboJ6ciMafNg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC?_1 Pin=Q?-2
+Added Pin To Net: NetName=GND Pin=S?-1
+Added Pin To Net: NetName=NetC?_2 Pin=S?-2
+Added Pin To Net: NetName=NetC?_1 Pin=U?-3
+Change Net Name : Old Net Name=SD_DATA2 New Net Name=NetC?_1
+Change Net Name : Old Net Name=SD_DATA3 New Net Name=NetC?_1
+Added Member To Class: ClassName=oem_w01_schemat Member=Component P? 61300911121
+Added Member To Class: ClassName=oem_w01_schemat Member=Component P? 61300911121
+Added Member To Class: ClassName=oem_w01_schemat Member=Component S? PTS636_SM43J_SMTR_LFS
+Added Member To Class: ClassName=oem_w01_schemat Member=Component U? MCP73831T-2ATI/OT
+Added Room: Name=oem_w01_schemat

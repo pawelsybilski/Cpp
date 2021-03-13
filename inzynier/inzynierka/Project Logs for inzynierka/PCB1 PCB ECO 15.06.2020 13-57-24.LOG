@@ -1,0 +1,27 @@
+Added Component: Designator=J5(Molex_0874380243_0)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Upverter"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://upverter.com/upn/revision/9247828ede5b33c1/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.molex.com/pdm_docs/sd/874380243_sd.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Description"; Value = "CONN HEADER 2POS 1.5MM R/A SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM7646CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "helpURL"; Value = "https://upverter.com/upn/revision/9247828ede5b33c1/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "538-87438-0243"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "HDR02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0874380243"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.47257560661"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "WM7646CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "538-87438-0243"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55°C to +105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range High"; Value = "+105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range Low"; Value = "-55°C"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J5-1
+Added Pin To Net: NetName=VBAT+ Pin=J5-2
+Added Member To Class: ClassName=oem_w01_schemat Member=Component J5 Conn_Molex_0874380243_eec
+Added Room: Name=oem_w01_schemat

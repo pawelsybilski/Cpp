@@ -1,0 +1,56 @@
+\selectlanguage *{polish}
+\contentsline {chapter}{Spis treści}{1}{section*.1}%
+\contentsline {chapter}{\chapternumberline {1}Korzystanie z szablonu}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Szablon}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Kompilowanie tekstu}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Zawartość szablonu}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Struktura głównego dokumentu}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Strona tytułowa}{4}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Definicje symboli i skrótów}{5}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Streszczenia}{5}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Rozdziały}{5}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}Ilustracje}{5}{subsection.1.4.5}%
+\contentsline {subsection}{\numberline {1.4.6}Bibliografia}{5}{subsection.1.4.6}%
+\contentsline {chapter}{\chapternumberline {2}Wskazówki i przykłady}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Formatowanie tekstu}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Font, style, itd.}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Akapity}{7}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Wstawianie specjalnych symboli}{7}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Wyróżnianie tekstu}{7}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Wyliczenia}{8}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Liczby}{8}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Adresy internetowe}{8}{subsection.2.1.7}%
+\contentsline {section}{\numberline {2.2}Przypisy}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Odsyłacze}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Tabele}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Cytowanie kodu źródłowego}{10}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Ilustracje}{11}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Przygotowanie ilustracji}{11}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Składanie ilustracji}{11}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.7}Składanie wzorów}{12}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Formuły w osobnych wierszach}{12}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Formuły osadzone w tekście}{12}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Ułamki z ukośnikiem}{12}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Indeksy górne i dolne}{12}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5}Nawiasy i ograniczniki}{13}{subsection.2.7.5}%
+\contentsline {section}{\numberline {2.8}Ułamki piętrowe}{13}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Justowanie wzorów}{13}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Ingerowanie w skład dokumentu}{14}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Kotwiczenie rysunków i tabel}{14}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.2}Wymuszanie złamania strony}{14}{subsection.2.10.2}%
+\contentsline {subsection}{\numberline {2.10.3}Wymuszanie złamania wiersza}{14}{subsection.2.10.3}%
+\contentsline {subsection}{\numberline {2.10.4}Zapobieganie wstawianiu wcięcia akapitowego}{14}{subsection.2.10.4}%
+\contentsline {subsection}{\numberline {2.10.5}Zapobieganiu przenoszeniu do nowego wiersza}{14}{subsection.2.10.5}%
+\contentsline {subsection}{\numberline {2.10.6}Znaki specjalne}{14}{subsection.2.10.6}%
+\contentsline {section}{\numberline {2.11}Spis literatury}{15}{section.2.11}%
+\contentsline {subsection}{\numberline {2.11.1}Baza bibliograficzna w formacie {\textrm B\kern -.05em{\textsc i\kern -.025em b}\kern -.08emT\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX }}{15}{subsection.2.11.1}%
+\contentsline {subsection}{\numberline {2.11.2}Odsyłacze}{15}{subsection.2.11.2}%
+\contentsline {subsection}{\numberline {2.11.3}Generowanie spisu literatury}{16}{subsection.2.11.3}%
+\contentsline {chapter}{Bibliografia}{17}{chapter*.9}%
+\contentsline {chapter}{Wykaz symboli i skrótów}{19}{section*.10}%
+\contentsline {chapter}{Spis rysunków}{21}{section*.12}%
+\contentsline {chapter}{Spis tabel}{23}{section*.13}%
+\contentsline {chapter}{Spis załączników}{25}{section*.14}%
+\cftinsert {BREAK}
+\contentsline {appendix}{\chapternumberline {A}Tekst źródłowy programu}{29}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Model VHDL projektu}{31}{appendix.B}%

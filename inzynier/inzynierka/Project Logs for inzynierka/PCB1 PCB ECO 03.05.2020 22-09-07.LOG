@@ -1,0 +1,109 @@
+Added Component: Designator=J?(693072010801)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/693072010801.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-25to85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "693072010801"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "693072010801"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "0.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "500VAC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "100VAC"; VariantName = "[No Variations]"
+Added Component: Designator=J(HRS_DM3AT-SF-PEJM5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Hirose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "DM3AT-SF-PEJM5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/DM3AT-SF-PEJM5/Hirose%20Electric%20Co%20Ltd/view-part/1223877/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=SD?(JAE-ST9S008V4AR1500_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "AccessRights"; Value = "2147483647"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "AncestorItemRevisionGUID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case\Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jaeusa.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://jae-connector.com/en/pdf/MB-0177-1E_ST9.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/683/sj108062-683405.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ContentType"; Value = "Unified Component"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ContentTypeGUID"; Value = "CB3C11C4-E317-11DF-B822-12313F0024A2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "400 mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Dec-08"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Folder"; Value = "Unified Components\Components\JAE Electronics\No Category\"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FolderGUID"; Value = "1D9C01E6-A246-4853-A9B2-975107405A4E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ItemDescription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ItemGUID"; Value = "D595BEF2-BEDF-4B93-B441-FF9E92F57A35"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ItemHRID"; Value = "CMP-1754-00001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LifeCycle"; Value = "Released"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LifeCycleStateGUID"; Value = "61E382EE-6656-4F12-9E24-BE9327104A25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-20 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Pin Surface Mount Device, Body 15.2 x 13.7 mm, Pitch 1.1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "10000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "ST9S008V4AR1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 2, 12/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReleaseDate"; Value = "28/09/2016 03:22:52 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReleaseNote"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RevisionId"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Unshielded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceGUID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceVaultGUID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "2.8E-05 oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.5 mm"; VariantName = "[No Variations]"
+Added Component: Designator=U?(MICT-TG-54_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CL"; Value = "CL = 3 "; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Clock Rate"; Value = "133 MHz "; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.micron.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Cycle Time"; Value = "7.5ns "; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Data Rate"; Value = "PC133 "; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev.Q"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Density"; Value = "256Mb "; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "16Mb "; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Micron"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Op. Temp."; Value = "-40C to +85C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "54-Pin Thin Small Outline Package, 10.16 x 22.22 mm, Pitch 0.8 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "MICT-TG-54"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev.Q"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "MT48LC16M16A2TG-75 IT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "5/6 "; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "3.3V "; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "x16 "; VariantName = "[No Variations]"
+Added Net: Name=+5V
+Added Net: Name=GND
+Added Net: Name=MISO
+Added Net: Name=MOSI
+Added Net: Name=NetANT?_1
+Added Net: Name=NetC?_1
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetJ_P1 Pin=J-P1
+Added Pin To Net: NetName=NetJ_P1 Pin=J-P2
+Added Pin To Net: NetName=NetJ_P1 Pin=J-P3
+Added Pin To Net: NetName=NetJ_P1 Pin=J-P4
+Added Net: Name=NetJ_P1
+Added Net: Name=NetL?_1
+Added Net: Name=VDD33
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

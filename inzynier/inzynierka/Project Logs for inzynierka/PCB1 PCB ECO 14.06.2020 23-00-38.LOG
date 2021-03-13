@@ -1,0 +1,36 @@
+Change Component Description : Designator=IC1 Old Description=USB 브� New Description=USB 브�|�지, USB-UART USB 2.0 UART 인터페이스 28-SSOP
+Added Component: Designator=IC3(SOT95P275X135-6N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "S-8261ABJMD-G3JT2x"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.fr/datasheet/2/360/S8261_E-1365905.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "ABLIC U.S.A. Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "S-8261ABJMD-G3JT2x"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "628-S8261ACMMDG4MT2G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=628-S8261ACMMDG4MT2G"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(SOTFL65P280X85-8N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "QH8KA4TCR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.rohm.com/datasheet/QH8KA4/qh8ka4tcr-e"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "QH8KA4TCR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "755-QH8KA4TCR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/QH8KA4TCR?qs=4v%252BiZTmLVHGNdU9QexsYgA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetIC3_1 Pin=IC3-1
+Added Pin To Net: NetName=NetIC3_2 Pin=IC3-2
+Added Pin To Net: NetName=NetIC3_3 Pin=IC3-3
+Added Pin To Net: NetName=NetC11_2 Pin=IC3-5
+Added Pin To Net: NetName=GND Pin=IC3-6
+Added Pin To Net: NetName=GND Pin=Q2-1
+Added Pin To Net: NetName=NetIC3_3 Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=Q2-3
+Added Pin To Net: NetName=NetIC3_1 Pin=Q2-4
+Added Pin To Net: NetName=NetQ2_5 Pin=Q2-5
+Added Pin To Net: NetName=NetQ2_5 Pin=Q2-6
+Added Pin To Net: NetName=NetQ2_5 Pin=Q2-7
+Added Member To Class: ClassName=oem_w01_schemat Member=Component IC3 S-8261ABJMD-G3JT2x
+Added Member To Class: ClassName=oem_w01_schemat Member=Component Q2 QH8KA4TCR
+Added Room: Name=oem_w01_schemat

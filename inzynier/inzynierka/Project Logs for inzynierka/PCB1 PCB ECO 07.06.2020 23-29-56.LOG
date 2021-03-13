@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=1V8 Pin=J2-2
+Removed Pin From Net: NetName=GPIO25 Pin=J2-3
+Removed Pin From Net: NetName=NetJ2_7 Pin=U-10
+Removed Pin From Net: NetName=NetJ2_6 Pin=U-12
+Removed Pin From Net: NetName=NetJ2_5 Pin=U-13
+Removed Pin From Net: NetName=NetJ2_4 Pin=U-14
+Added Pin To Net: NetName=GPIO25 Pin=J2-8
+Added Pin To Net: NetName=1V8 Pin=J2-9
+Added Pin To Net: NetName=NetJ2_7 Pin=U-8
+Added Pin To Net: NetName=NetJ2_6 Pin=U-9
+Added Pin To Net: NetName=NetJ2_5 Pin=U-10
+Added Pin To Net: NetName=NetJ2_4 Pin=U-12
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_2 Pin=U-14
+Added Net: Name=NetJ2_2
+Added Pin To Net: NetName=NetJ2_3 Pin=J2-3
+Added Pin To Net: NetName=NetJ2_3 Pin=U-13
+Added Net: Name=NetJ2_3
+Added Member To Class: ClassName=oem_w01_schemat Member=Component J1 10118192-0001LF
+Added Member To Class: ClassName=oem_w01_schemat Member=Component J2 61300911121
+Added Room: Name=oem_w01_schemat

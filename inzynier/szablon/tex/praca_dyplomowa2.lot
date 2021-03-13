@@ -1,0 +1,10 @@
+\selectlanguage *{polish}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Przykład wykorzystania pakietu \texttt {siunitx} do justowania zawartości pól tabeli.\relax }}{8}{table.caption.2}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Przykładowa tabela -- zawartość pól wyśrodkowana.\relax }}{9}{table.caption.3}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Przykładowa tabela -- wyrównywanie zawartości pól do lewego lub prawego marginesu.\relax }}{9}{table.caption.4}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Przykład tabeli z diagonalnym podziałem komórki.\relax }}{9}{table.caption.5}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces Wymuszenie konkretnych szerokości kolumn.\relax }}{10}{table.caption.6}%
+\addvspace {10pt}
+\addvspace {10pt}

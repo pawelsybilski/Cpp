@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=GND Pin=J4-4
+Added Pin To Net: NetName=GND Pin=J4-5
+Added Pin To Net: NetName=GND Pin=J4-SH1
+Added Member To Class: ClassName=oem_w01_schemat Member=Component J5 Conn_Molex_0874380243_eec
+Added Room: Name=oem_w01_schemat

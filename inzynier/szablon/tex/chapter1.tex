@@ -1,0 +1,124 @@
+% !TeX spellcheck = pl_PL
+% !TeX encoding = UTF-8
+\chapter{Korzystanie z szablonu}
+
+\textit{Szablon jest zgodny z wymaganiami dla prac dyplomowych określonymi w Zarządzeniu nr 57/2016 Rektora Politechniki Warszawskiej z dnia 15 grudnia 2016r.}
+
+\textit{Ze względu na dwustronny skład pracy, w wielu miejscach pojawiają się puste strony. Wyniki to z tego, że kolejne rozdziały rozpoczynają się od strony nieparzystej.}
+
+\section{Szablon}
+Niniejszy dokument jest propozycją składu pracy inżynierskiej lub magisterskiej  wykorzystującego  system {\LaTeX} (\cite{TUG, wikibook, wikilatex}). 
+Dokument został  pomyślany jako szablon, który przy minimalnym wysiłku można wypełnić właściwą treścią. Korzystanie z szablonu nie wymaga biegłości w  {\LaTeX}-u. Wystarczy wykorzystać przykłady  typowych elementów występujących w tekście pracy dyplomowej: wyliczeń, wzorów, tabel, ilustracji, itp. 
+
+Szablon pracy pełni dwie funkcje. Po pierwsze, zawiera wszystkie niezbędne definicje (zgromadzone w głównym pliku szablonu) oraz  sformatowaną stronę tytułową i strony streszczeń. Po drugie, tekst źródłowy dokumentu jest zbiorem przykładów, które można skopiować i przystosować do własnych potrzeb.
+
+
+Warto tu wspomnieć o prawidłowej wymowie i odmianie nazwy {\LaTeX}. Jest ona skrótem od [Leslie] Lamport {\TeX}, który jest zbiorem makr stanowiących nadbudowę dla systemu składu {\TeX}. Twórcą  {\TeX-a}  jest prof. Donald E. Knuth, amerykański matematyk i informatyk pracujący na Uniwersytecie Stanforda. W nazwie występuje litery Τ, Ε i Χ, które w istocie reprezentują greckie: tau, epsilon oraz chi (\Tau\epsilon\Chi). Są to początkowe znaki greckiego słowa τέχνη (technē), od którego pochodzi wyraz \textit{technika}. Tak więc poprawne formy to: "latech", "latecha", "latechowi", "latecha", "latechem", itd.
+
+Z oczywistych względów niniejsze opracowanie ten nie jest kursem {\LaTeX}-a. W celu pogłębienia wiedzy  można skorzystać z materiałów dostępnych w Internecie, np.:
+\begin{itemize}
+\item \url {http://www.latex-kurs.x25.pl/},
+\item \url {http://en.wikibooks.org/wiki/LaTeX},
+\item \url {http://en.wikipedia.org/wiki/LaTeX},
+\item \url {http://tex.stackexchange.com},
+\item \url {http://www.tug.org/}.
+\end{itemize}
+
+
+
+
+\section{Kompilowanie tekstu}
+Szablon ten powstał przy założeniu, że do kompilacji plików źródłowych używany będzie program \texttt{lualatex} -- jeden z kompilatorów dostępnych w standardowej dystrybucji {\LaTeX}-a. W przypadku stosowania innego kompilatora (np.~\texttt{pdflatex}) należy dokonać szeregu istotnych zmian w deklaracjach pakietów i~definicjach makr co wymaga dobrej znajomości {\LaTeX}-a i, co nie mniej istotne, zajmie cenny czas. Tak więc znacznie rozsądniej jest przed przystąpieniem do pracy  skonfigurować środowisko edycyjne (np. \textit{TeXStudio}) tak, aby domyślnym kompilatorem był właśnie \texttt{lualatex}.
+
+\section{Zawartość szablonu}
+Pliki wykorzystywane w dokumencie zgromadzone w czterech podkatalogach: \textit{bibliografia}, \textit{fonts}, \textit{grafika} i~\textit{tex}.
+Pierwszy z nich zawiera bazę bibliograficzną (\textit{spis.bib})  oraz definicje formatu bibliografii (\textit{plainurl.bst}). Drugi podkatalog zawiera stosowany na stronie tytułowej font \textit{Belgrano} (licencja \textit{SIL Open Font License}) a~trzeci jest magazynem plików graficznych. Natomiast w podkatalogu \textit{tex} znajdują się pliki źródłowe:
+
+\begin{itemize}
+\item \textit{praca\_dyplomowa2.tex} -- główny plik szablonu,
+\item \textit{glossary.tex} -- plik zawierający definicje stosowanych w pracy symboli i skrótów,
+\item \textit{title.tex} -- plik strony tytułowej,
+\item \textit{abstract.tex} -- plik zawierający streszczenia,
+\item \textit{chapter1.tex}, \textit{chapter2.tex} i \textit{chapter3.tex} -- pliki zawierające teksty źródłowe rozdziałów, 
+\item \textit{appendixA.tex} i \textit{appendixB.tex} -- przykładowe pliki dodatków.
+\end{itemize} 
+Liczba rozdziałów w konkretnej pracy może być oczywiście inna niż w tym szablonie i w takim przypadku należy dopasować liczbę plików \textit{chapterX.tex}. 
+
+
+
+\section{Struktura głównego dokumentu}
+W dokumencie głównym wczytywane są (poleceniem \texttt{\textbackslash input}) pozostałe pliki źródłowe. Są tu także zdefiniowane niezbędne parametry oraz ustawione opcje wpływające na proces składania tekstu. Jedną z~takich opcji jest \texttt{\textbackslash setmainfont\{\}} określająca font jakim ma być złożony tekst:  
+
+{\footnotesize \begin{verbatim}
+%%% Konfiguracja fontu
+%%%\setmainfont{TeX Gyre Pagella}
+\setmainfont{FreeSerif}
+\end{verbatim}
+}
+
+Jeśli instrukcja \texttt{\textbackslash setmainfont\{\}}) zostanie usunięta to zastosowany będzie standardowy font \textit{Latin Modern Roman}. Można też uaktywnić instrukcję zmieniającą domyślny font na \textit{TeX Gyre Pagella}.
+
+\subsection{Strona tytułowa}
+Pliku definiującego wygląd strony tytułowej nie trzeba samodzielnie edytować. Można to zrobić, ale wygodniej jest zdefiniować w pliku głównym makra, które są w nim wywoływane:
+\begin{itemize}
+\item  \texttt{\textbackslash newcommand\textbackslash rok\{\  \}},
+\item  \texttt{\textbackslash newcommand\textbackslash rodzajpracy\{\  \}},
+\item  \texttt{\textbackslash newcommand\textbackslash kierunek\{\  \}},
+\item  \texttt{\textbackslash newcommand\textbackslash specjalnosc\{\  \}},
+\item  \texttt{\textbackslash newcommand\textbackslash tytulpl\{\  \}},
+\item  \texttt{\textbackslash newcommand\textbackslash tytulen\{\  \}},
+\item  \texttt{\textbackslash newcommand\textbackslash autor\{\  \}},
+\item  \texttt{\textbackslash newcommand\textbackslash nralbumu\{\  \}},
+\item  \texttt{\textbackslash newcommand\textbackslash promotor\{\  \}},
+\end{itemize}
+jak to pokazano poniżej:
+
+{\footnotesize \begin{verbatim}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% Parametry strony tytułowej  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\rok{2017}
+%\newcommand\rodzajpracy{Praca dyplomowa \\ \vskip6pt inżynierska}
+\newcommand\rodzajpracy{Praca dyplomowa \\ \vskip6pt magisterska}
+\newcommand\kierunek{Elektronika, Informatyka i Telekomunikacja}
+\newcommand\specjalnosc{Elektronika i inżynieria komputerowa}
+\newcommand\tytulpl{Optymalizacja nieoptymalnych rozwiązań w~celu uzyskania dyplomu}
+\newcommand\tytulen{Optimization of non-optimal solutions in order to get a~diploma}
+\newcommand\autor{Adam Kowalski}
+\newcommand\nralbumu{123456789}
+\newcommand\promotor{prof. dr hab. Iks Igrekowski}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{verbatim}
+}
+
+\subsection{Definicje symboli i skrótów}
+Nowy format pracy dyplomowej zawiera wykaz symboli i skrótów. W celu jego wygenerowania należy zaktualizować plik \textit{glossary.tex}. 
+
+\subsection{Streszczenia}
+Plik zawierający streszczenia (w języku polskim i w języku angielskim)  można edytować samodzielnie. Oprócz samych streszczeń należy zmodyfikować obie listy słów kluczowych.
+ 
+\subsection{Rozdziały}
+Zalecane jest umieszczenie tekstu źródłowego każdego z rozdziałów w oddzielnym pliku. W przypadku innej liczby rozdziałów niż w niniejszym dokumencie należy odpowiednio zmodyfikować polecenia  wczytujące te pliki w dokumencie głównym:
+
+{\footnotesize \begin{verbatim}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% wczytanie plików zawierających kolejne rozdziały pracy
+\input {./chapter1.tex}
+\input {./chapter2.tex}
+\input {./chapter3.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{verbatim}
+}
+
+\subsection{Ilustracje}
+Zakłada się, że pliki graficzne zawierające ilustracje są umieszczone w katalogu \textit{grafika}.
+
+\subsection{Bibliografia}
+Zakłada się, że baza bibliograficzna znajduje się w  pliku o nazwie \textit{spis.bib}  a sam plik w~podkatalogu \textit{bibliografia} co znajduje swoje odzwierciedlenie w poleceniu:
+
+{\footnotesize \begin{verbatim}
+\bibliography{../bibliografia/spis}
+\end{verbatim}
+}
+

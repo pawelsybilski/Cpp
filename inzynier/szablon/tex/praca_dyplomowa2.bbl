@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{TUG}
+{TeX Users Group web site}.
+\newblock URL: \url{http://www.tug.org/}.
+
+\bibitem{PN}
+{PN}-83/{P}-55366 {Zasady} składania tekstów w języku polskim, 1983.
+
+\bibitem{Pastre2009}
+M.~Pastre and M.~Kayal.
+\newblock Methodology for the digital calibration of analog circuits and
+  systems using sub-binary radix dacs.
+\newblock In {\em Mixed Design of Integrated Circuits Systems, 2009. MIXDES
+  '09. MIXDES-16th International Conference}, pages 456--461, 2009.
+
+\bibitem{Pastre2006}
+Marc Pastre and Maher Kayal.
+\newblock {\em Methodology for the Digital Calibration of Analog Circuits and
+  Systems: with Case Studies (The Springer International Series in Engineering
+  and Computer Science)}.
+\newblock Springer, 2006.
+\newblock URL:
+  \url{http://www.amazon.com/Methodology-Digital-Calibration-Circuits-Systems/dp/1402042523%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1402042523}.
+
+\bibitem{Pelgrom1989}
+M.~J~M Pelgrom, Aad C~J Duinmaijer, and A.P.G. Welbers.
+\newblock Matching properties of mos transistors.
+\newblock {\em Solid-State Circuits, IEEE Journal of}, 24(5):1433--1439, 1989.
+\newblock \href {http://dx.doi.org/10.1109/JSSC.1989.572629}
+  {\path{doi:10.1109/JSSC.1989.572629}}.
+
+\bibitem{wikibook}
+Wikibooks.
+\newblock Latex -- wikibooks{,} the free textbook project, 2012.
+\newblock URL: \url{http://en.wikibooks.org/wiki/LaTeX}.
+
+\bibitem{wikilatex}
+Wikipedia.
+\newblock Latex -- wikipedia{,} the free encyclopedia, 2012.
+\newblock URL: \url{http://en.wikipedia.org/wiki/LaTeX}.
+
+\end{thebibliography}

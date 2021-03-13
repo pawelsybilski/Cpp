@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=CMD Pin=J2-3
+Removed Pin From Net: NetName=VDD33 Pin=J2-4
+Removed Pin From Net: NetName=SD_CLK Pin=J2-5
+Removed Pin From Net: NetName=GND Pin=J2-6
+Removed Pin From Net: NetName=SD_DATA0 Pin=J2-7
+Removed Pin From Net: NetName=SD_DATA1 Pin=J2-8
+Removed Pin From Net: NetName=GND Pin=J2-9
+Removed Pin From Net: NetName=GND Pin=J2-P1
+Removed Pin From Net: NetName=GND Pin=J2-P2
+Removed Pin From Net: NetName=GND Pin=J2-P3
+Removed Pin From Net: NetName=GND Pin=J2-P4
+Change Component Description : Designator=IC Old Description=USB 브� New Description=USB 브�|�지, USB-UART USB 2.0 UART 인터페이스 28-SSOP
+Added Component: Designator=J3(503398-1892)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "503398-1892"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.molex.com/webdocs/datasheets/pdf/en-us//5033981892_MEMORY_CARD_SOCKET.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "503398-1892"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "538-503398-1892"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Molex/503398-1892?qs=b0v8CoHHvSMxV%252BW12iKaSg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CMD Pin=J3-3
+Added Pin To Net: NetName=VDD33 Pin=J3-4
+Added Pin To Net: NetName=SD_CLK Pin=J3-5
+Added Pin To Net: NetName=GND Pin=J3-6
+Added Pin To Net: NetName=SD_DATA0 Pin=J3-7
+Added Pin To Net: NetName=SD_DATA1 Pin=J3-8
+Added Member To Class: ClassName=oem_w01_schemat Member=Component J1 10118192-0001LF
+Added Member To Class: ClassName=oem_w01_schemat Member=Component J3 503398-1892
+Added Room: Name=oem_w01_schemat
